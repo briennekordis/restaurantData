@@ -103,21 +103,21 @@ var root = {
     return input;
   },
   deleterestaurant: ({ id }) => {
-    const ok = Boolean(restaurants[id]);
-    let delc = restaurants[id];
+    const ok = Boolean(restaurants[id - 1]);
+    let delc = restaurants[id - 1];
     restaurants = restaurants.filter((item) => item.id !== id);
     console.log(JSON.stringify(delc));
     return { ok };
   },
   editrestaurant: ({ id, ...restaurant }) => {
-    if (!restaurants[id]) {
+    if (!restaurants[id - 1]) {
       throw new Error("restaurant doesn't exist");
     }
-    restaurants[id] = {
-      ...restaurants[id],
+    restaurants[id - 1] = {
+      ...restaurants[id - 1],
       ...restaurant,
     };
-    return restaurants[id];
+    return restaurants[id - 1];
   },
 };
 
