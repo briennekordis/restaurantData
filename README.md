@@ -10,6 +10,8 @@ This project uses GraphQL to Create, Read, Update, and Delete (CRUD) restaurant 
 5. navigate to localhost:550/grapghql in your browser to open up the GrapghQL Playground connected to the index.js file
 6. Paste the code from the grapghql file in this directory into the editor on the left side of the GraphQL Playground
 7. Click on the "Play" arrow button in the GraphQL Playground to run the different mutations. The returned data will appear on the right side of the screen. 
+  - You can make changes to the editor on the left side, such as changing the name passed into the editRestaurants mutation and then run the getRestaurants mutation with the "Play" button again to see your changes to the data
+  - Note: If you make any changes to the index.js file, you will have to stop your local server and reload your browser for the GraphQL Playground to update accordingly. 
 
 ## Roadmap for Improvement
 - Currently, the restraurants data is stored as a variable within the index.js file. While this allowed the project to work easily in the GrapghQL Playground, it would be advisable to seperate the data into a JSON file to clean up the index.js file. 
