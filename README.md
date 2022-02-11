@@ -2,7 +2,7 @@
 This project uses GraphQL to Create, Read, Update, and Delete (CRUD) restaurant data (in JSON format). 
 
 ## SetUp
-0.Prerequisite: Make sure you have Node installed on your computer
+0. Prerequisite: Make sure you have Node installed on your computer
 1. Download or clone the index.js file
 2. Open up Terminal (OSX)/or equivielent command line and navigate to the directory of the index.js file
 3. run `npm install` from the command line
