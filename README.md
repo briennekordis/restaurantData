@@ -1,7 +1,21 @@
-## Description 
+## Project Name
+restaurantData
+
+## Table of Contents
+- Description & General Info
+- Languages & Technologies
+- Setup & Use
+- Suggestions for Improvement
+- Licensing Information
+
+## Description & General Info
 This project uses GraphQL to Create, Read, Update, and Delete (CRUD) restaurant data (in JSON format). 
 
-## Instructions for Use
+## Languages & Technologies
+- JavaScript 
+- GrapghQL
+
+## Setup & Use
 0. Prerequisite: Make sure you have Node installed on your computer
 1. Download or clone the index.js file
 2. Open up Terminal (OSX)/or equivielent command line and navigate to the directory of the index.js file
@@ -13,5 +27,7 @@ This project uses GraphQL to Create, Read, Update, and Delete (CRUD) restaurant 
   - You can make changes to the editor on the left side, such as changing the name passed into the editRestaurants mutation and then run the getRestaurants mutation with the "Play" button again to see your changes to the data
   - Note: If you make any changes to the index.js file, you will have to stop your local server and reload your browser for the GraphQL Playground to update accordingly. 
 
-## Roadmap for Improvement
+## Suggestions for Improvement
 - Currently, the restraurants data is stored as a variable within the index.js file. While this allowed the project to work easily in the GrapghQL Playground, it would be advisable to seperate the data into a JSON file to clean up the index.js file. 
+
+## Licensing Information
